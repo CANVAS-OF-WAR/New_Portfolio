@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: white;
+}
+
+body {
+    background-color:rgb(28, 28, 28);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    display: flex;
+}
+
+#img1 {
+    width: 110px;
+    height: 170px;
+    outline: none;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+nav {
+    border: 1px solid white;
+    margin-left: 10px;
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+    padding-top: 3rem ;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 90px;
+}
+
+nav ul li {
+    text-decoration: none;
+    list-style-type: none;
+    cursor: pointer;
+    font-size: x-large;
+}
+
+nav ul li:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease;
+    text-decoration: underline;
+}
+
+#img2 {
+    height: 50px;
+    width: 80px;
+    border: 2px groove black;
+}
+
+#img2:hover {
+    transform: scale(1.8);
+    transition: 0.8s ease-out;
+}
+
+main {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+}
+
+aside {
+    width: 20%;
+    height: 50%;
+    border: 1px solid white;
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+    aside {
+        padding: 2px;
+    }
+}
+
+.line {
+    width: 70%;
+    height: 0.5px;
+    background-color:  #d3d3d3;
+    align-self: center;
+    content: '';
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+button {
+    background-color: chocolate;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    height: auto;
+    width: auto;
+    padding: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: 0.4s ease;
+    border-color: black;
+}
